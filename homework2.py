@@ -1,6 +1,5 @@
 #Task - 1
 
-
 # f1 = int(input("Enter a number 1: "))
 # f2 = int(input("Enter a number 2: "))
 # f3 = int(input("Enter a number 3: "))
@@ -22,26 +21,36 @@
 #     result3 = (f1 + f2 + f3) / 3
 #     print("The average is:", {result3})
 # else: print("Invalid!")
-=======
-f1 = int(input("Enter a number 1: "))
-f2 = int(input("Enter a number 2: "))
-f3 = int(input("Enter a number 3: "))
+<<<<<<<<< Temporary merge branch 1
+
+=========
+
+#Task 2
+
+meters = float(input("Enter the meters: "))
 
 print("Choose operation")
-print("1 - max")
-print("2 - min")
-print("3 - average")
+print("1 - yards")
+print("2 - miles")
+print("3 - inches")
 
-choice = int(input("Enter your choice: "))
+choice = input("Operation:")
 
-if choice == 1:
-    result1 = max(f1, f2, f3)
-    print("The maximum is:", {result1})
-elif choice == 2:
-    result2 = min(f1, f2, f3)
-    print("The minimum is:", {result2})
-elif choice == 3:
-    result3 = (f1 + f2 + f3) / 3
-    print("The average is:", {result3})
-else: print("Invalid!")
+yards = 0.9144
+miles = 1609.34
+inches = 0.0254
 
+if choice == "1":
+    result = meters / yards
+    print("The result is:", result)
+elif choice == "2":
+    result = meters / miles
+    print("The result is:", result)
+
+elif choice == "3":
+    result = meters / inches
+    print("The result is:", result)
+else: print("Invalid")
+
+
+>>>>>>>>> Temporary merge branch 2
