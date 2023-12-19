@@ -1,4 +1,4 @@
-# Task1
+#### Task1
 
 # print("Choose ur day of the week!(1-7)")
 # user_select = int(input("Days of the week: "))
@@ -18,7 +18,7 @@
 #     case 7:
 #         print("Sunday")
 
-#Task2
+#### Task2
 
 # try:
 #     print("Choose two numbers:")
@@ -38,7 +38,7 @@
 #
 # print("Working next")
 
-#Task3
+#### Task3
 
 # try:
 #     print("Choose two numbers:")
