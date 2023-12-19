@@ -1,5 +1,5 @@
 #### Task1
-
+#
 # print("Choose ur day of the week!(1-7)")
 # user_select = int(input("Days of the week: "))
 # match user_select:
@@ -17,9 +17,9 @@
 #         print("Saturday")
 #     case 7:
 #         print("Sunday")
-
-#### Task2
-
+#
+# ### Task2
+#
 # try:
 #     print("Choose two numbers:")
 #     num1 = float(input("Number 1:"))
@@ -38,28 +38,28 @@
 #
 # print("Working next")
 
-#### Task3
+### Task3
 
-# try:
-#     print("Choose two numbers:")
-#     num1 = int(input("Number 1:"))
-#     num2 = int(input("Number 2:"))
-#     print("Choose ur operation(+, -, *, /): ")
-#
-#     Operation = input("Choose: ")
-#
-#     if Operation == "+":
-#         print(num1 + num2)
-#     elif(Operation == "-"):
-#         print(num1 - num2)
-#     elif(Operation == "*"):
-#         print(num1*num2)
-#     elif(Operation == "/"):
-#         if num1 == 0 or num2 == 0:
-#             raise ValueError("cant divide by zero")
-#         else:
-#             print(num1/num2)
-# except ValueError as error:
-#     print("Print numbers only")
-# except Exception as error:
-#     print(error)
+try:
+    print("Choose two numbers:")
+    num1 = int(input("Number 1:"))
+    num2 = int(input("Number 2:"))
+    print("Choose ur operation(+, -, *, /): ")
+
+    Operation = input("Choose: ")
+
+    if Operation == "+":
+        print(num1 + num2)
+    elif(Operation == "-"):
+        print(num1 - num2)
+    elif(Operation == "*"):
+        print(num1*num2)
+    elif(Operation == "/"):
+        if num1 == 0 or num2 == 0:
+            raise ValueError("cant divide by zero")
+        else:
+            print(num1/num2)
+except ValueError as error:
+    print("Error, try to change ur numbers")
+except Exception as error:
+    print(error)
